@@ -3,7 +3,7 @@ import Header from './Header';
 import Main from './Main';
 import Footer from './Footer';
 import SelectedBeast from './SelectedBeast'
-import HornForm from './FliterForm'
+import FilterForm from './FilterForm'
 import Data from './data.json';
 
 
@@ -165,7 +165,7 @@ class App extends React.Component {
         <Header
           heart={this.state.heart}
         />
-        <HornForm
+        <FilterForm
           handleChangeHorn={this.handleChangeHorn}
           selectedHorns={this.state.selectedHorns}
         />
