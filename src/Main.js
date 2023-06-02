@@ -31,4 +31,4 @@ class Main extends React.Component {
   }
 }
 
-export default Main;git
+export default Main;
